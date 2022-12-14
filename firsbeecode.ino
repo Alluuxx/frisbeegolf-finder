@@ -219,16 +219,4 @@ Vector value = mpu.readScaledAccel();
     }
   }
 
-
-/*
-  Serial.print("Battery Voltage: ");
-  Serial.print(voltage);
-  Serial.println("V");
-*/
-  //Serial.println(normalgyro.ZAxis);
-
-//Serial.println(normAccel.XAxis);
-  //Serial.println(normAccel.YAxis);
- // Serial.println(normAccel.ZAxis);
-  //delay(300);
 }
