@@ -28,3 +28,18 @@ We had to start measuring some values what gyroscope and accelometer gives. For 
 
 ![IMG_20221018_132022](https://user-images.githubusercontent.com/66247950/207603487-a9581957-ffa4-40c6-ac5f-ade19a055229.jpg)
 
+We used bubble wrap to protect the circuit and battery so we basically capsulated the components with it. Normal tape wasn't enough to attach the component packet under the disc (as a long time solution) so we bought and used this special tape which you can see under this paragraph. We cleaned the disc's centre part, where we wanted to attach the circuit, with alcohol and taped it to the place. Here is also a picture of the circuit and battery inside the bubble wrap. 
+
+![IMG_20221214_165527](https://user-images.githubusercontent.com/66247950/207639486-743c49d9-263e-4b25-b868-54c5719197d2.jpg)
+
+![IMG_20221129_1933201](https://user-images.githubusercontent.com/66247950/207640230-c7cd00fb-c924-4c40-8dfd-fbaa4b373eef.jpg)
+
+Here is a final picture of the attachment to a disc. After dozens and dozens of throws the tape seems to hold on, even though it was very cold when testing it and the disc sank into snow several times. 
+
+![IMG_20221210_2137441](https://user-images.githubusercontent.com/66247950/207641067-cf9bd35f-306e-47ab-9bd6-6b3d158711cd.jpg)
+
+The rest of the project hours went into testing different limit values as well as to debugging. Some times the disc worked well and some times not. One error was related to the time checking and was then fixed. We also implemented on/off button to control the circuit and it didn't work quite as we wanted some times so there were some problems too which were fixed. One thing was also the fact, that when we were testing g-forces in October without snow, the disc worked fine but after the snow our limit values was not specific anymore because the snow cushioned the impact of the ground. There were a lot of this kind of small things which we noticed while testing the disc. A short demo video of the basic functionality is found from the project file "demo videos". The video is cutted after the disc lands because there were one minute waiting time before the buzzer would start to beep so keep that in mind. 
+
+
+
+
