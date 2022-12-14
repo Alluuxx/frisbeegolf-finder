@@ -17,6 +17,7 @@ Following requirements were identified when planning the project:
 - When the disc is picked up, the beeping will stop 
 - The buzzer will also beep as long as the disc is flying to warn other people around
 - The leds of the circuit will be turned on to the duration of the fly but will turn off after the landing
+- User can interupt the process of checking time of the landed disc by just picking up the disc from ground
 
 
 
