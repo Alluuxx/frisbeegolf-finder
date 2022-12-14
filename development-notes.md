@@ -38,7 +38,29 @@ Here is a final picture of the attachment to a disc. After dozens and dozens of 
 
 ![IMG_20221210_2137441](https://user-images.githubusercontent.com/66247950/207641067-cf9bd35f-306e-47ab-9bd6-6b3d158711cd.jpg)
 
-The rest of the project hours went into testing different limit values as well as to debugging. Some times the disc worked well and some times not. One error was related to the time checking and was then fixed. We also implemented on/off button to control the circuit and it didn't work quite as we wanted some times so there were some problems too which were fixed. One thing was also the fact, that when we were testing g-forces in October without snow, the disc worked fine but after the snow our limit values was not specific anymore because the snow cushioned the impact of the ground. There were a lot of this kind of small things which we noticed while testing the disc. A short demo video of the basic functionality is found from the project called "demovideo.mp4". The video is cutted after the disc lands because there were one minute waiting time before the buzzer would start to beep so keep that in mind. 
+The rest of the project hours went into testing different limit values as well as to debugging. Some times the disc worked well and some times not. One error was related to the time checking and was then fixed. We also implemented on/off button to control the circuit and it didn't work quite as we wanted some times so there were some problems too which were fixed. One thing was also the fact, that when we were testing g-forces in October without snow, the disc worked fine but after the snow our limit values was not specific anymore because the snow cushioned the impact of the ground. There were a lot of this kind of small things which we noticed while testing the disc. A short demo video of the basic functionality is found from the project called "demovideo.mp4". The video is cutted after the disc lands because there were one minute waiting time before the buzzer would start to beep so keep that in mind. Under this paragraph there is one more picture where you can see that the circuit is actually staying lower than sides of the disc which is a good thing. This way it doesn't affect to the trajectory of the disc almost at all. The circuit is also very light so the disc is still easy to throw to long ranges after you get the new touch to your disc.
+
+![IMG_20221210_213812](https://user-images.githubusercontent.com/66247950/207646080-a55b9852-5fb0-4ded-99dc-c4b5dcacacd2.jpg)
+
+Future of the project
+
+At the moment, the product is a functional entity with the specified functionalities that have been given to it within the course.
+For the future, we have determined new functionalities and things to be developed to be brought into this product.
+There is bluetooth compatibility on the circuit board, so the purpose would be to harness this possibility into practice and implement it
+the player's ability to connect to the disc on the phone. Through this connection the player could view for example, the speeds and
+lengths of his throws from his phone screen.
+
+The product works with a 3.7 volt battery, so it requires charging from time to time. Currently, the charging takes place as found on the circuit board
+via the usb port, but in the future we could use, for example, wireless charging technology, such as the one placed on top of the disc
+with the help of a charging film. Another option could be a charging dock in the disc bag, where the disc is placed and in the disc and disc bag
+would be small metallic charging buttons, which, when facing each other, would enable the charging process to be successful.
+
+With the help of the components found on the circuit board, it is also possible to look at the weather conditions, for example temperature and air pressure. By utilizing these, with the help of certain limit values, the disc could be made to adapt to different weather conditions. Roughly
+for example -5 degrees below zero would indicate to the disc that there may be snow on the ground, in which case hitting the ground
+does not necessarily produce such a high G-value, so its sensitivity should be reduced. Temperatures from -5 degrees upwards would correspond to melt
+country, in which case the disc values would be default. This is just an emerging consideration and possible functionality in the future.
+The limit values presented here are not planned.
+
 
 
 
