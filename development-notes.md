@@ -16,3 +16,6 @@ Following requirements were identified when planning the project:
 - The buzzer will also beep as long as the disc is flying to warn other people around
 - The leds of the circuit will be turned on to the duration of the fly but will turn off after the landing
 
+Workflow
+
+So, to be able to identify when the disc is actually thrown, we needed to start the coding. Watch X is using Arduino Leonardo so we started to code it in Arduino IDE environment. We used accelerometer as well as gyroscope (MPU6050) data to check that the rotation of the disc is enough to be identified as a throw and that G-Forces are high enough. This way we could prevent the situations where user is for example shaking the disc so it wouldn't beep all the time for nothing. LED:s were integrated to the circuit and we used those in the code light on and light off in the way explained above in "functionalities" text. We also needed the buzzer (ST-0503-3) to make sound helping user to find the disc as well as warn passing by people of the flying disc. Real Time Clock (DS3231MZ+) was used for mesuring the elapsed time. First, we ch
