@@ -131,6 +131,7 @@ void checkSettings()
 
 void loop()
 {
+  // for turning on/off the device
   byte buttonState = digitalRead(SW1);
   if (buttonState != lastButtonState) {
     lastButtonState = buttonState;
@@ -171,7 +172,7 @@ void loop()
     digitalWrite(13, LOW);
     digitalWrite(6, LOW);
   }
-  if(normalgyro.ZAxis > 720){
+  if(normalgyro.ZAxis > 720){ //if the value of gyroscope is over 720 (two rounds around its axis), buzzer will beep as long as the value is over 720.
     digitalWrite(13, HIGH);
     digitalWrite(6, HIGH);
     tone(9, 1000, 1000);
@@ -182,21 +183,21 @@ void loop()
   }
 
   Serial.println(scalAccel.ZAxis);
-  if((scalAccel.ZAxis > 3 || scalAccel.ZAxis < -3) && (normalgyro.ZAxis > 720)){
+  if((scalAccel.ZAxis > 3 || scalAccel.ZAxis < -3) && (normalgyro.ZAxis > 720)){ //here we check that the throw has happened by combining G-Force values and rotation of the disc. We take time from the realtime clock.
     digitalWrite(13, LOW);
     digitalWrite(6, LOW);
     now = rtc.now();
     check = true;
   }
 Vector value = mpu.readScaledAccel();
-  if(check){
+  if(check){ 
     DateTime neww = rtc.now();
     double sekunnit1 = (now.hour() * 3600) + (now.minute() * 60) + now.second();
     double sekunnit2 = (neww.hour() * 3600) + (neww.minute() * 60) + neww.second();
 
-    double seconds = fabs(sekunnit1 - sekunnit2);
-    if(seconds >= 10){
-      while(value.ZAxis <  1.5 && value.ZAxis > -1.5){
+    double seconds = fabs(sekunnit1 - sekunnit2); 
+    if(seconds >= 10){ //we want to start counting the time after 10 seconds the event that the throw has happened, because the disc could still keep rolling for a long time after landing to ground.
+      while(value.ZAxis <  1.5 && value.ZAxis > -1.5){ //if user picks up the disc shortly after the throw, the time calculation will be cancelled and the disc is ready to be thrown again. This way the disc will not beep for nothing.
         check = false;
         DateTime neww = rtc.now();
         double sekunnit1 = (now.hour() * 3600) + (now.minute() * 60) + now.second();
@@ -204,7 +205,7 @@ Vector value = mpu.readScaledAccel();
 
         double seconds = fabs(sekunnit1 - sekunnit2);
         Serial.println(seconds);
-          if(seconds >= 60){
+          if(seconds >= 60){ //If 60 seconds has passed and no one has moved/picked up the disc, the buzzer will beep as long as the user picks it up. 
             while(value.ZAxis <  1.5 && value.ZAxis > -1.5){
               Serial.println(value.ZAxis);
               tone(9, 1000, 2000);
