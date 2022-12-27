@@ -1,4 +1,4 @@
-# frisbeegolf-finder
+# frisbee finder X
 This project is about using Watch X circuit as a finder and intelligence for frisbeegolf disc
 
 This project was made as a course work for the "Principles of repurposing of electronics" (521229A-3003) course.
