@@ -6,7 +6,7 @@ In this project we used the circuit of Watch X to help finding your frisbeegolf 
 
 Motivation of the project
 
-We participated to a course named Repurposing Electronics here in University of Oulu. The basic idea of the course was to brainstorm how to reuse some electronic device or components and invent some new purpose for it. In our case, we came up with an idea to use some kind of electronic device to help finding the disc. Our teacher was kind enough to give us his Watch X (smart watch) which is programmable. Frisbeegolf is popular hobby here in Finland so we thought that it would be cool and somewhat relevant project idea to make it easier to find your frisbeegolf disc.
+We participated to a course named Repurposing Electronics here in University of Oulu. The basic idea of the course was to brainstorm how to reuse some electronic device or components and invent some new purpose for it. In our case, we came up with an idea to use some kind of electronic device to help finding the frisbee. Our teacher was kind enough to give us his Watch X (smart watch) which is programmable. Frisbeegolf is popular hobby here in Finland so we thought that it would be cool and somewhat relevant project idea to make it easier to find your frisbeegolf disc.
 
 
 
