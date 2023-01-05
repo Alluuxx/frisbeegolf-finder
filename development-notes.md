@@ -27,7 +27,8 @@ So, to be able to identify when the disc is actually thrown, we needed to start 
 
 We had to start measuring some values what gyroscope and accelometer gives. For gyroscope, we just attached the circuit and battery to the disc and the disc to rotary tray. By this we could get some direction for the values. The setup is seen from the picture under this paragraph. To measure accelometer values, we attached the circuit to disc and started to hit the disc to floor, to hand etc. while our program printed values of the accelometer. This way we got some kind of limit values which we could later define more accurately when throwing and testing the disc. 
 
-![IMG_20221018_132022](https://user-images.githubusercontent.com/66247950/207603487-a9581957-ffa4-40c6-ac5f-ade19a055229.jpg)
+![firsbee0](https://user-images.githubusercontent.com/66247950/210741795-9886d0a7-aaae-4495-a460-c2513ff7f3ca.jpg)
+
 
 We used bubble wrap to protect the circuit and battery so we basically capsulated the components with it. Normal tape wasn't enough to attach the component packet under the disc (as a long time solution) so we bought and used this special tape which you can see under this paragraph. We cleaned the disc's centre part, where we wanted to attach the circuit, with alcohol and taped it to the place. Here is also a picture of the circuit and battery inside the bubble wrap. 
 
@@ -37,7 +38,8 @@ We used bubble wrap to protect the circuit and battery so we basically capsulate
 
 Here is a final picture of the attachment to a disc. After dozens and dozens of throws the tape seems to hold on, even though it was very cold when testing it and the disc sank into snow several times. 
 
-![IMG_20221210_2137441](https://user-images.githubusercontent.com/66247950/207641067-cf9bd35f-306e-47ab-9bd6-6b3d158711cd.jpg)
+![frisbee](https://user-images.githubusercontent.com/66247950/210742117-766b76df-69b4-41f2-ba7b-0c76b61cae91.jpg)
+
 
 The rest of the project hours went into testing different limit values as well as to debugging. Some times the disc worked well and some times not. One error was related to the time checking and was then fixed. We also implemented on/off button to control the circuit and it didn't work quite as we wanted some times so there were some problems too which were fixed. One thing was also the fact, that when we were testing g-forces in October without snow, the disc worked fine but after the snow our limit values was not specific enough anymore because the snow cushioned the impact of the ground. There were a lot of this kind of small things which we noticed while testing the disc. A short demo video of the basic functionality is found from the project called "demovideo.mp4". The video is cutted after the disc lands because there were one minute waiting time before the buzzer would start to beep so keep that in mind. Under this paragraph there is one more picture where you can see that the circuit is actually staying lower than sides of the disc which is a good thing. This way it doesn't affect to the trajectory of the disc almost at all. The circuit is also very light so the disc is still easy to throw to long ranges after you get the new touch to your disc.
 
